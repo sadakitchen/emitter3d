@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, user-scalable=no, minimum-scale=1.0, maximum-scale=1.0">
+    <title>emitter3d</title>
+    <link rel="stylesheet" type="text/css" href="css/main.css">
+  </head>
+  <body>
+    <div id="emitter3d"></div>
+    <script src="https://rawgit.com/mrdoob/three.js/r92/build/three.min.js"></script>
+    <script src="https://rawgit.com/mrdoob/stats.js/master/build/stats.min.js"></script>
+    <script src="https://rawgit.com/dataarts/dat.gui/v0.7.1/build/dat.gui.min.js"></script>
+    <script src="js/postprocessing/EffectComposer.js"></script>
+    <script src="js/postprocessing/RenderPass.js"></script>
+    <script src="js/postprocessing/ManualMSAARenderPass.js"></script>
+    <script src="js/postprocessing/UnrealBloomPass.js"></script>
+    <script src="js/postprocessing/ShaderPass.js"></script>
+    <script src="js/postprocessing/SMAAPass.js"></script>
+    <script src="js/shaders/CopyShader.js"></script>
+    <script src="js/shaders/FocusShader.js"></script>
+    <script src="js/shaders/LuminosityHighPassShader.js"></script>
+    <script src="js/shaders/SMAAShader.js"></script>
+    <script src="js/emitter3d.js"></script>
+    <script>window.onload = emitter3d;</script>
+  </body>
+</html>
